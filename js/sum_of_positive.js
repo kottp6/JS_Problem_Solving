@@ -18,3 +18,5 @@ function sumOfPositive(arr)
         (acc,current)=> acc+current,0
     )
 }
+
+console.log(sumOfPositive([1, -4, 7, 12]));

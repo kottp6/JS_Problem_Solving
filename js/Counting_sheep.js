@@ -4,6 +4,21 @@
 
 function countSheep(array)
 {
+
+    // First Solution using for loop
+    // if(array == null || array.length == 0) return 0;
+    // let count = 0;
+    // for(let i=0; i<array.length; i++)
+    // {
+    //     if(array[i] == true)
+    //     {
+    //         count++;
+    //     }
+    // }
+    // return count;
+
+    // Second Solution using filter and length
+    if(array == null || array.length == 0) return 0;
     return array.filter((x)=>x==true).length;
 }
 
